@@ -1,1 +1,1 @@
-Refresh archlinux/pacman's master package database
+Refresh pacman's master package database (`pacman -Sy`)
