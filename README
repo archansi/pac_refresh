@@ -1,1 +1,1 @@
-Refresh pacman's master package database (pacman -Sy)
+Download a fresh copy of the master package database (pacman -Sy)
