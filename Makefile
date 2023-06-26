@@ -13,7 +13,7 @@ dryrun: tasks/main.yml
 			--check \
 			--playbook-dir=../ \
 			--module-name import_role \
-			-a "name=$(ROLE_NAME) tasks_from=$<" $(HOST)
+			--args "name=$(ROLE_NAME) tasks_from=$<" $(HOST)
 
 lint:
 	@$(ANSIBLE_LINT) $(ANSIBLE_LINT_OPTIONS) $(PWD)
